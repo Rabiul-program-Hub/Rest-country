@@ -5,7 +5,7 @@ export default function Country({pro}){
 console.log(pro)
 const [visited,setVisited]= useState(false)
 const visitHandler = ()=>{
-    setVisited(true)
+    setVisited(!visited)
 }
 return(
 <div className="box">
